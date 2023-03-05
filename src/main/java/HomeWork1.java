@@ -6,7 +6,7 @@ import java.util.function.BiConsumer;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class HomeWork {
+public class HomeWork1 {
     public static <T> void findMinMax(
             Stream<? extends T> stream,
             Comparator<? super T> order,
@@ -32,5 +32,9 @@ public class HomeWork {
 
         stream.close();
     }
+
+
+
+
 
 }
